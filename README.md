@@ -1,1 +1,1 @@
-# x-seed.github.io
+# x seed.github.io
