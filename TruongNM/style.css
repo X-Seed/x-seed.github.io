@@ -566,6 +566,6 @@ li a:visited {
 	border-style: none;
 }
 
-li a:visited {
+#footer-nav-bar li a:visited {
 	color: white;
 }
