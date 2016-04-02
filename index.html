@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
   
 
-    <title>Page đã được sủa</title>
+  <title>Page đã được sủa</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <!--<link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet"> -->
-    <!--Copy the above CSS and include it myself - Linh Tran -->
-    <style type="text/css">
+  <!-- Custom styles for this template -->
+  <!--<link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet"> -->
+  <!--Copy the above CSS and include it myself - Linh Tran -->
+  <style type="text/css">
     body {
       padding-top: 50px;
     }
@@ -25,67 +25,77 @@
       padding: 40px 15px;
       text-align: center;
     }
-    </style>
- 
- 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  </style>
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+      <![endif]-->
+    </head>
 
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top ">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only"> Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Web Development</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="LinhTT/linhtt.html">LinhTT</a></li>
-            <li><a href="pages/haupq.html">HauPQ</a></li>
-            <li><a href="pages/hieunq.html">HieuNQ</a></li>
-            <li><a href="pages/hiennq.html">HienNQ</a></li>
-            <li><a href="TruongNM/">TruongNM</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <div class="container" >
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
-
-      <div class="container">
-        <div class ="row">
-          <div class="col-sm-6 col-md-3">
-            <div class = "well"><h1>1 0 0 0 0 0 2</h1></div>
+    <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top ">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only"> Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Web Development</a>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <div class = "well"><h1>1 0 0 0 0 0 2</h1></div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="LinhTT/linhtt.html">LinhTT</a></li>
+              <li><a href="pages/haupq.html">HauPQ</a></li>
+              <li><a href="pages/hieunq.html">HieuNQ</a></li>
+              <li><a href="pages/hiennq.html">HienNQ</a></li>
+              <!-- <li><a href="TruongNM/">TruongNM</a></li> -->
+              <li>
+                <div class="dropdown">
+                <button style="background:transparent; color: gray;line-height: 37px;" onmouseover='this.style.color="white"' onmouseout='this.style.color="grey"' class="btn dropdown-toggle" type="button" data-toggle="dropdown">TruongNM
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="TruongNM/CatHTML">Cat HTML</a></li>
+                      <li><a href="TruongNM/TodoList">Angular Todo List</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
           </div>
-          <div class="col-sm-6 col-md-3">
-            <div class = "well"><h1>1 0 0 0 0 0 2</h1></div>
+        </nav>
+
+        <div class="container" >
+
+          <div class="starter-template">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <div class = "well"><h1>1 0 0 0 0 0 2</h1></div>
-          </div> 
-        </div>
-      </div>
+
+          <div class="container">
+            <div class ="row">
+              <div class="col-sm-6 col-md-3">
+                <div class = "well"><h1>1 0 0 0 0 0 2</h1></div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class = "well"><h1>1 0 0 0 0 0 2</h1></div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class = "well"><h1>1 0 0 0 0 0 2</h1></div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class = "well"><h1>1 0 0 0 0 0 2</h1></div>
+              </div> 
+            </div>
+          </div>
 
 
-    </div><!-- /.container -->
+        </div><!-- /.container -->
 
 
     <!-- Bootstrap core JavaScript
@@ -93,6 +103,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="bootstrap3/js/jquery1112.js"></script>
     <script src="bootstrap3/js/bootstrap.min.js"></script>
-  
+
   </body>
-</html>
+  </html>
